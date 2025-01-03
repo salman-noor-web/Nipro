@@ -1,0 +1,616 @@
+/* X-Small devices (portrait phones, less than 576px */
+@media (max-width: 575.98px) {
+  /* header start  */
+  .n_menu ul li a {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .n_brand {
+    width: 150px;
+  }
+
+  .gs_button {
+    text-align: right;
+  }
+  /* header end  */
+  /* banner start */
+  .b_pvxt {
+    text-align: center;
+  }
+  .b_wr {
+    text-align: center;
+  }
+
+  .btn_common {
+    padding: 6px 24px;
+    font-size: 15px;
+  }
+  .s_caption {
+    margin: 120px 0 110px;
+  }
+
+  .s_h2 {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .s_p {
+    margin: 40px 30px 45px 30px !important;
+    text-align: center;
+    font-size: 15px;
+  }
+  /* banner end */
+
+  /* welcom start */
+  .c_pb {
+    padding-bottom: 50px;
+  }
+  .c_service {
+    margin-bottom: 50px;
+  }
+  /* welcom end */
+  /* about start  */
+  .about_con {
+    text-align: center;
+    margin-left: 0 !important;
+    margin-bottom: 40px;
+  }
+  /* about start  */
+  /* wc section start */
+  .wc_con {
+    margin-left: 30px;
+  }
+
+  .wc_line {
+    width: 300px;
+  }
+  /* wc section end */
+  /* www start  */
+  .www_con h5 {
+    font-size: 16px;
+  }
+  .www_con p {
+    font-size: 14px;
+  }
+  .c_title h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  /* www end  */
+  /* bp start */
+  .pricing-card {
+    margin-bottom: 50px;
+  }
+
+  .pricing-price {
+    font-size: 20px;
+  }
+  .pricing-price span {
+    font-size: 16px;
+  }
+
+  .btn-signup {
+    padding: 15px 15px;
+  }
+  /* bp end */
+  /* ca start */
+  .ca_title {
+    font-size: 16px;
+  }
+  .ca_tcon {
+    margin: 0 auto 20px;
+    text-align: center;
+  }
+  .tbon {
+    margin: 0 auto;
+  }
+  /* ca end*/
+
+  /* tst start */
+
+  .slider-content {
+    text-align: center;
+  }
+  .slider-img img {
+    width: 100%;
+  }
+  .carousel-control-next::after {
+    content: "NEXT";
+    writing-mode: horizontal-tb;
+    color: var(--black);
+  }
+
+  .carousel-control-prev::after {
+    content: "PREV";
+    writing-mode: horizontal-tb;
+    color: var(--black);
+  }
+
+  .control {
+    position: relative;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    width: 65px;
+    padding: 50px 10px;
+    height: 100%;
+  }
+
+  .carousel-control-prev {
+    top: 110%;
+    left: 30%;
+  }
+
+  .carousel-control-next {
+    top: 110%;
+    left: 100px;
+  }
+
+  .carousel-control-middle {
+    position: absolute;
+    top: 110%;
+    left: 105%;
+    writing-mode: horizontal-tb;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--ash);
+  }
+  /* tst end */
+  /* contact start */
+  .cont_us {
+    margin: 0 auto;
+  }
+  .c_item {
+    border: 1px solid var(--ash);
+    padding: 50px 10px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  form {
+    text-align: center;
+  }
+  .c_item h1 {
+    width: 200px;
+  }
+  .namel {
+    width: 250px;
+    margin-left: 0;
+  }
+  .name {
+    width: 250px;
+  }
+  .message {
+    width: 250px;
+  }
+
+  .email {
+    width: 250px;
+  }
+
+  /* contact end */
+  /* footer start */
+  .f-con p {
+    color: white;
+    margin: 0 30px 55px;
+    padding-top: 30px;
+  }
+  .footer-text {
+    font-size: 12px;
+  }
+
+  .footer-links {
+    font-size: 12px;
+  }
+  /* footer end */
+}
+
+/* Small devices (landscape phones, less than 768px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* header start  */
+  /* header end  */
+
+  /* banner start */
+  .b_pvxt {
+    text-align: center;
+  }
+  .b_wr {
+    text-align: center;
+  }
+  .s_caption {
+    margin: 130px 0 120px;
+  }
+
+  .s_h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .s_p {
+    margin: 40px 30px 45px 30px !important;
+    text-align: center;
+  }
+  /* banner end */
+
+  /* welcom start */
+  .c_pb {
+    padding-bottom: 50px;
+  }
+  .c_service {
+    margin-bottom: 50px;
+  }
+  /* welcom end */
+  /* about start  */
+  .about_con {
+    text-align: center;
+    margin-left: 0 !important;
+    margin-bottom: 40px;
+  }
+  /* about start  */
+  /* wc section start */
+  .wc_con {
+    margin-left: 20px;
+  }
+  .wc_line {
+    width: 500px;
+  }
+  /* wc section end */
+  /* www start  */
+  .c_title h1 {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+  /* www end  */
+  /* bp start */
+  .pricing-card {
+    margin-bottom: 50px;
+  }
+  /* bp end */
+  /* ca start */
+  .ca_tcon {
+    text-align: center;
+  }
+  .tbon {
+    margin: 0 auto;
+  }
+  /* ca end*/
+  /* tst start */
+
+  .slider-content {
+    text-align: center;
+  }
+  .slider-img img {
+    width: 100%;
+  }
+  .carousel-control-next::after {
+    content: "NEXT";
+    writing-mode: horizontal-tb;
+    color: var(--black);
+  }
+
+  .carousel-control-prev::after {
+    content: "PREV";
+    writing-mode: horizontal-tb;
+    color: var(--black);
+  }
+
+  .control {
+    position: relative;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    width: 65px;
+    padding: 50px 10px;
+    height: 100%;
+  }
+
+  .carousel-control-prev {
+    top: 110%;
+    left: 30%;
+  }
+
+  .carousel-control-next {
+    top: 110%;
+    left: 100px;
+  }
+
+  .carousel-control-middle {
+    position: absolute;
+    top: 110%;
+    left: 105%;
+    writing-mode: horizontal-tb;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--ash);
+  }
+  /* tst end */
+  /* contact start */
+  .c_item {
+    border: 1px solid var(--ash);
+    padding: 50px 10px;
+    margin: 0 auto;
+  }
+  .namel {
+    width: 200px;
+  }
+  .name {
+    width: 200px;
+  }
+  .message {
+    width: 490px;
+  }
+
+  .email {
+    width: 490px;
+  }
+
+  /* contact end */
+  /* footer start */
+  .f-con p {
+    color: white;
+    margin: 0 125px 55px;
+    padding-top: 30px;
+  }
+  .footer-text {
+    font-size: 13px;
+  }
+
+  .footer-links {
+    font-size: 13px;
+  }
+  /* footer end */
+}
+
+/* Medium devices (tablets, less than 992px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* header start  */
+  .n_menu ul li a {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .gs_button {
+    text-align: right;
+  }
+  /* header end  */
+
+  /* banner start */
+  .s_h2 {
+    font-size: 40px;
+  }
+
+  .s_p {
+    margin: 40px 245px 45px 0;
+  }
+  /* banner start */
+
+  /* welcom start */
+  .c_pb {
+    padding-bottom: 50px;
+  }
+  .c_service {
+    margin-bottom: 50px;
+  }
+  /* welcom end */
+  /* about start  */
+  .about_con {
+    text-align: center;
+    margin-left: 0 !important;
+    margin-bottom: 40px;
+  }
+
+  .about_img {
+    text-align: center;
+  }
+  /* about start  */
+  /* wc section start */
+  .wc_line {
+    width: 300px;
+  }
+  .wc_con {
+    margin-left: 20px;
+  }
+  /* wc section end */
+  /* www start  */
+  .c_title h1 {
+    font-size: 30px !important;
+  }
+  /* www end  */
+  /* bp start */
+  .pricing-card {
+    margin-bottom: 50px;
+  }
+  /* bp end */
+  /* tst start */
+  .ca_s {
+    margin-right: 50px;
+  }
+
+  .control {
+    right: -70px;
+  }
+  /* tst end */
+  /* contact start */
+
+  .namel {
+    width: 200px;
+  }
+  .name {
+    width: 200px;
+  }
+  .message {
+    width: 450px;
+  }
+
+  .email {
+    width: 450px;
+  }
+
+  /* contact end */
+  /* footer start */
+  .f-con p {
+    color: white;
+    margin: 0 180px 55px;
+  }
+  .footer-text {
+    font-size: 13px;
+  }
+
+  .footer-links {
+    font-size: 13px;
+  }
+  /* footer end */
+}
+
+/* Large devices (desktops, less than 1200px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* header start  */
+  .n_menu ul li a {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .gs_button {
+    text-align: right;
+  }
+  /* header end  */
+
+  /* banner start */
+
+  .s_p {
+    margin: 40px 0px 45px 0;
+  }
+  /* banner end */
+
+  /* welcom start */
+  .c_title h1 {
+    font-size: 28px;
+  }
+  /* welcom end */
+
+  /* about start  */
+  .about_con p {
+    line-height: 20px;
+    margin: 10px 0 30px 0;
+  }
+  /* about start  */
+  /* wc section start */
+  .wc_line {
+    width: 300px;
+  }
+  .wc_con {
+    margin-left: 0px;
+  }
+  /* wc section end */
+  /* www start  */
+  .www_con h5 {
+    font-size: 15px;
+  }
+
+  .www_con p {
+    font-size: 14px;
+  }
+
+  /* www end  */
+  /* bp start */
+
+  .pricing-price {
+    font-size: 25px;
+  }
+  .pricing-price span {
+    font-size: 18px;
+  }
+
+  .btn-signup {
+    padding: 15px 35px;
+  }
+  /* bp end */
+  /* tst start */
+  .ca_s {
+    margin-right: 50px;
+  }
+  /* tst start */
+  /* contact start */
+
+  .namel {
+    width: 250px;
+  }
+  .name {
+    width: 250px;
+  }
+  .message {
+    border: none;
+    border-bottom: 1px solid var(--ash);
+    padding: 65px 30px;
+    text-transform: capitalize;
+    width: 610px;
+    margin-bottom: 50px;
+  }
+
+  .email {
+    border: none;
+    border-bottom: 1px solid var(--ash);
+    padding: 65px 30px;
+    text-transform: capitalize;
+    width: 610px;
+    margin-bottom: 50px;
+  }
+
+  /* contact end */
+  /* footer start */
+  .f-con p {
+    color: white;
+    margin: 0 300px 55px;
+  }
+
+  /* footer end */
+}
+
+/* X-Large devices (large desktops, less than 1400px */
+@media (min-width: 1200px) and (max-width: 2600px) {
+  /* header start  */
+  .n_menu ul li a {
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 0px;
+  }
+
+  .gs_button {
+    text-align: right;
+  }
+  /* header end  */
+
+  /* banner start */
+  .s_caption {
+    margin: 210px 0 200px !important;
+  }
+  /* banner end */
+
+  /* welcom start */
+  /* welcom end */
+  /* about start  */
+  /* about start  */
+  /* wc section start */
+  /* wc section end */
+  /* www start  */
+  /* www end  */
+  /* bp start */
+  /* bp end */
+}
